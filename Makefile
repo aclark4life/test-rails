@@ -328,3 +328,7 @@ vagrant-up:
 	vagrant up --provider virtualbox
 vagrant-update:
 	vagrant box update
+
+# rails-test
+rails-serve:
+	cd myapp && rails server
